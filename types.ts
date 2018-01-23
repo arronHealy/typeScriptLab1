@@ -46,7 +46,7 @@ x[3] = "world";
 
 console.log(x[3]);
 
-enum Color{Red, Green, Blue}
+enum Color{Red = 1, Green, Blue}
 
 let c: Color = Color.Green;
 
