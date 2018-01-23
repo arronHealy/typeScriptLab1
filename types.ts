@@ -55,3 +55,15 @@ console.log(c);
 let colorName: string = Color[3];
 
 console.log(colorName);
+
+let notSure: any = 4;
+console.log(notSure);
+
+notSure = "maybe a string";
+
+console.log(notSure);
+
+notSure = false;
+
+console.log(notSure);
+
