@@ -8,3 +8,11 @@ let binary: number = 0b1010;
 let octal: number = 0o744;
 
 console.log("Decimal is " + decimal + "\nHex is " + hex + "\nbinary is " + binary + "\noctal is " + octal);
+
+let color: string = "blue";
+
+console.log(color);
+
+color = "red";
+
+console.log(color);

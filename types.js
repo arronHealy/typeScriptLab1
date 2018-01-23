@@ -5,3 +5,7 @@ var hex = 0xf00d;
 var binary = 10;
 var octal = 484;
 console.log("Decimal is " + decimal + "\nHex is " + hex + "\nbinary is " + binary + "\noctal is " + octal);
+var color = "blue";
+console.log(color);
+color = "red";
+console.log(color);
