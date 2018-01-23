@@ -9,3 +9,7 @@ var color = "blue";
 console.log(color);
 color = "red";
 console.log(color);
+var fullName = "Bob Bobby";
+var age = 6;
+var sentence = "Hello, my name is " + fullName + ".\n\nI'll be " + (age + 1) + " years next month.";
+console.log(sentence);
