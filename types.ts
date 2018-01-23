@@ -34,3 +34,10 @@ for(num = 0; num < list.length; num++)
     console.log(list[num]);
     console.log(list2[num]);
 }
+
+let x: [string, number];
+
+x = ["hello", 10];
+
+console.log(x[0].substr(1));
+console.log(x[1].toString());
