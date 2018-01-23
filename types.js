@@ -24,3 +24,13 @@ var x;
 x = ["hello", 10];
 console.log(x[0].substr(1));
 console.log(x[1].toString());
+x[3] = "world";
+console.log(x[3]);
+var Color;
+(function (Color) {
+    Color[Color["Red"] = 0] = "Red";
+    Color[Color["Green"] = 1] = "Green";
+    Color[Color["Blue"] = 2] = "Blue";
+})(Color || (Color = {}));
+var c = Color.Green;
+console.log(c);

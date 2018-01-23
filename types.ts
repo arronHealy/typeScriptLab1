@@ -41,3 +41,13 @@ x = ["hello", 10];
 
 console.log(x[0].substr(1));
 console.log(x[1].toString());
+
+x[3] = "world";
+
+console.log(x[3]);
+
+enum Color{Red, Green, Blue}
+
+let c: Color = Color.Green;
+
+console.log(c);
