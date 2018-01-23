@@ -13,3 +13,10 @@ var fullName = "Bob Bobby";
 var age = 6;
 var sentence = "Hello, my name is " + fullName + ".\n\nI'll be " + (age + 1) + " years next month.";
 console.log(sentence);
+var list = [1, 2, 3];
+var list2 = [4, 5, 6];
+var num;
+for (num = 0; num < list.length; num++) {
+    console.log(list[num]);
+    console.log(list2[num]);
+}

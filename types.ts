@@ -24,3 +24,13 @@ let sentence: string = `Hello, my name is ${fullName}.
 I'll be ${age + 1} years next month.`
 
 console.log(sentence);
+
+let list: number[] = [1, 2, 3];
+let list2: Array<number> = [4, 5, 6];
+let num: number;
+
+for(num = 0; num < list.length; num++)
+{
+    console.log(list[num]);
+    console.log(list2[num]);
+}
