@@ -42,3 +42,7 @@ notSure = "maybe a string";
 console.log(notSure);
 notSure = false;
 console.log(notSure);
+var list3 = [1, true, "free"];
+//list3[1] = 100;
+console.log(list3[0]);
+console.log(list3[1]);

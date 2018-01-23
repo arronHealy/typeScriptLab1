@@ -67,3 +67,10 @@ notSure = false;
 
 console.log(notSure);
 
+let list3: any[] = [1, true, "free"];
+
+//list3[1] = 100;
+
+console.log(list3[0]);
+console.log(list3[1]);
+
