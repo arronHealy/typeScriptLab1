@@ -34,3 +34,5 @@ var Color;
 })(Color || (Color = {}));
 var c = Color.Green;
 console.log(c);
+var colorName = Color[3];
+console.log(colorName);
